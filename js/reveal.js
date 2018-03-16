@@ -97,7 +97,7 @@
 			rtl: false,
 
 			// Randomizes the order of slides each time the presentation loads
-			shuffle: false,
+			shuffle: true,
 
 			// Turns fragments on and off globally
 			fragments: true,
@@ -127,7 +127,7 @@
 			//           is present on the current slide or fragment
 			// - 1+:     All slides will progress automatically at the given interval
 			// - false:  No auto-sliding, even if data-autoslide is present
-			autoSlide: 5000,
+			autoSlide: 4000,
 
 			// Stop auto-sliding after user input
 			autoSlideStoppable: true,
