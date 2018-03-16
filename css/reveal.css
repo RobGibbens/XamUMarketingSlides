@@ -1384,7 +1384,7 @@ body {
   letter-spacing: normal; }
 
 .reveal .overlay.overlay-help .viewport .viewport-inner .title {
-  font-size: 20px; }
+  font-size: 16px; }
 
 .reveal .overlay.overlay-help .viewport .viewport-inner table {
   border: 1px solid #fff;
@@ -1482,7 +1482,7 @@ body {
   left: 100%;
   padding: 14px 18px 14px 18px;
   z-index: 1;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   border: 1px solid rgba(0, 0, 0, 0.05);
   color: #222;
@@ -1512,7 +1512,7 @@ body {
 
 @media screen and (min-width: 1600px) {
   .reveal .speaker-notes {
-    font-size: 20px; } }
+    font-size: 16px; } }
 
 @media screen and (max-width: 1024px) {
   .reveal.show-notes {

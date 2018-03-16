@@ -39,8 +39,8 @@
 
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
-			width: 960,
-			height: 700,
+			width: '100%', // 960,
+			height: '100%', //700,
 
 			// Factor of the display size that should remain empty around the content
 			margin: 0.04,
@@ -50,7 +50,7 @@
 			maxScale: 2.0,
 
 			// Display presentation control arrows
-			controls: true,
+			controls: false,
 
 			// Help the user learn the controls by providing hints, for example by
 			// bouncing the down arrow when they first encounter a vertical slide

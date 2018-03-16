@@ -12,6 +12,28 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<style>
+		.grid-container {
+  			display: grid;
+			grid-template-columns: auto 300px ;
+		}
+		
+		.reveal section img { background:none; border:none; box-shadow:none; }
+		
+		.fill {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden
+		}
+
+		.fill img {
+			flex-shrink: 0;
+			min-width: 100%;
+			min-height: 100%
+		}
+		</style>
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -19,100 +41,182 @@
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
-
-			var url = "https://university.xamarin.com/api/v2/guest";
-
-
 		</script>
 	</head>
 	<body >
-		<div class="reveal">
+		<div class="reveal" style="width:100%;height:100%;">
 			<img src="https://university.xamarin.com/Images/XamUBlueLogo.svg" height="50" 
 			style="margin-left:10px;margin-top:10px;" />
-			<div class="slides" >
-				<section data-markdown>
-					<textarea data-template>
-						## New Courses
-						<ul>
-							<li>XAM205 - Xamarin.Forms Navigation Patterns</li>
-							<li>IOS103 - Make your Images Look Great on all Devices [IOS103]</li>
-						</ul>
-					</textarea>
+			<div class="slides" style="width:100%;height:100%;">
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								New Courses
+								<br />
+								<br />
+								<ul>
+									<li>XAM205 - Xamarin.Forms Navigation Patterns</li>
+									<li>IOS103 - Make your Images Look Great on all Devices [IOS103]</li>
+								</ul>
+							</div>
+							<div class="grid-item">
+								<div class="fill">
+										<img src="6.jpg" alt="" />
+								</div>
+							</div>
+					</div>
 				</section>
 
-				<section data-markdown>
-					<textarea data-template>
-						## New Badges
+
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								<br />
+								New Badges
+								<br />
+								<br />
+								<ul>
+									<li>Navigator
+										<br>&nbsp;&nbsp;Complete AND205, IOS205, and XAM205</li>
+								</ul>
+							</div>
+							<div class="grid-item">
+								<div class="fill">
+										<img src="badge.png" alt="" />
+								</div>
+							</div>
+					</div>
+				</section>
+
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								<br />
+								New Lightning Lectures
+								<br />
+								<br />
+								<ul>
+									<li>Multi-targeting - Jason DeBoever</li>
+									<li>Android JobScheduler - René Ruppert</li>
+								</ul>
+								<br />
+								<br />
+								<a href="https://university.xamarin.com/lightninglectures">university.xamarin.com/LightningLectures</a>
+							</div>
+							<div class="grid-item">
+								<div class="fill">
+										<img src="lightning.jpg" alt="" />
+								</div>
+							</div>
+					</div>
+				</section>
+
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								<br />
+								New Guest Lectures
+								<br />
+								<br />
+								<ul>
+									<li>Essential tools for Xamarin Developers
+										<br />&nbsp;&nbsp;Sam Basu
+									</li>
+									<li>Azure AD B2C
+										<br />&nbsp;&nbsp;Matt Soucoup
+									</li>
+								</ul>
+								<br />
+								<br />
+								<a href="https://university.xamarin.com/guestlectures">university.xamarin.com/GuestLectures</a>
+							</div>
+							<div class="grid-item">
+								<div class="fill">
+										<img src="microphone.jpg" alt="" />
+								</div>
+							</div>
+					</div>
+				</section>	
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								DevConnect
+								<br />
+								
+								<br />
+								If you're a Xamarin developer, create a DevConnect profile with your 
+								Xamarin University account to showcase your mobile skills and past projects!
+								<br />
+								<br />
+								<a href="https://devconnect.xamarin.com">devconnect.xamarin.com</a>
+							</div>
+							<div class="grid-item">
+								<div class="fill">
+										<img src="http://devconnect.xamarin.com/images/hero.svg" alt="" />
+								</div>
+							</div>
+					</div>
+				</section>	
+
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								<br />
+								YouTube Channel
+								<br />
+								<br />
+								Our videos are on YouTube!
+								<br />
+								<br />
+								<a href="https://aka.ms/XamUOnYouTube">aka.ms/XamUOnYouTube</a>
+							</div>
+							<div class="grid-item">
+									<div class="fill">
+											<img src="video.jpg" alt="" />
+									</div>
+							</div>
+					</div>
+				</section>
+
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								Fill out your surveys
+								<br />
+								<br />
+								Tell us how we're doing. Fill out the class surveys on your profile page.
+								<br />
+								<br />
+								<a href="https://university.xamarin.com/profile">university.xamarin.com/profile</a>
+							</div>
+							<div class="grid-item">
+									<div class="fill">
+											<img src="survey.jpg" alt="" />
+									</div>
+							</div>
+					</div>
+				</section>
 				
-						<img src="https://xamarinuniversity.blob.core.windows.net/images/nav-badge_408d19ab-b212-4628-8ab9-e6eca8cc0e04.png" 
-						width="100" height="100" border="0"> 
-						Navigator - Complete AND205, IOS205, and XAM205
-					</textarea>
-				</section>
+				<section >
+					<div class="grid-container">
+							<div class="grid-item">
+								<br />
+								Office Hours
+								<br />
+								<br />
+								Have questions? Need help? Schedule your one on one Office Hours session each month.
+								<br />
+								<br />
+								<a href="https://university.xamarin.com/classes/request">university.xamarin.com/classes/request</a>
+							</div>
+							<div class="grid-item">
+									<div class="fill">
+											<img src="officeHours.png" alt="" />
+									</div>
+							</div>
+					</div>
+				</section>				
 
-				<section data-markdown>
-					<textarea data-template>
-						## New Lightning Lectures
-				
-						[https://university.xamarin.com/lightninglectures](https://university.xamarin.com/lightninglectures)
-						<ul>
-							<li>Multi-targeting - Jason DeBoever</li>
-							<li>Android JobScheduler - René Ruppert</li>
-						</ul>
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						## New and upcoming Guest Lectures
-				
-						[https://university.xamarin.com/guestlectures](https://university.xamarin.com/guestlectures)
-						<ul>
-							<li>Essential tools for Xamarin Developers - Sam Basu</li>
-							<li>Azure AD B2C - Matt Soucoup</li>
-						</ul>>
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						## DevConnect
-				
-						[https://university.xamarin.com/devconnect](https://university.xamarin.com/devconnect)
-
-						If you're a Xamarin developer, create a DevConnect profile with your Xamarin University account to showcase your mobile skills and past projects!
-					</textarea>
-				</section>
-
-				<section data-markdown>
-						<textarea data-template>
-							## YouTube
-					
-							[https://aka.ms/XamUOnYouTube](https://aka.ms/XamUOnYouTube)
-	
-							Our videos are on YouTube!
-						</textarea>
-					</section>
-
-					<section data-markdown>
-							<textarea data-template>
-								## Surveys
-						
-								[https://university.xamarin.com/profile](https://university.xamarin.com/profile)
-		
-								Tell us how we're doing. Fill out the class surveys on your profile page
-							</textarea>
-						</section>	
-						
-						<section data-markdown>
-								<textarea data-template>
-									## Office Hours
-							
-									[https://university.xamarin.com/classes/request](https://university.xamarin.com/classes/request)
-			
-									Have questions? Need help? Schedule your one on one Office Hours session each month.
-								</textarea>
-							</section>
 			</div>
 		</div>
 
